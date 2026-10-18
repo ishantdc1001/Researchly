@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+build/
+*/build/
+
+# Environment Variables (Keep examples)
+.env
+*/.env
+.env.local
+.env.*.local
+!.env.example
+!*/.env.example
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+*/venv/
+.venv/
+*/.venv/
+env/
+*/env/
+*.egg-info/
+.pytest_cache/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

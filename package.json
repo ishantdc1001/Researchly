@@ -1,0 +1,24 @@
+{
+  "name": "researchly-monorepo",
+  "version": "1.0.0",
+  "description": "Researchly.io — Autonomous AI Conference Intelligence & Credibility Platform",
+  "scripts": {
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm.cmd run dev",
+    "dev:ai": "cd ai-service && python -m uvicorn main:app --port 8000 --reload",
+    "seed": "cd backend && node seed/seedData.js",
+    "install:all": "cd backend && npm.cmd install && cd ../frontend && npm.cmd install && cd ../ai-service && python -m pip install -r requirements.txt"
+  },
+  "keywords": [
+    "academic",
+    "conferences",
+    "ai-agent",
+    "faiss",
+    "credibility-engine",
+    "mern",
+    "supabase",
+    "nodemailer"
+  ],
+  "author": "Researchly Architecture Team",
+  "license": "MIT"
+}
